@@ -43,7 +43,7 @@ ol {
 
 .content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin: auto;
   align-items: flex-end;
   inline-size: 1140px;  
@@ -73,11 +73,17 @@ ol {
 
 /*Стили размеров*/
 
+.result {
+  display:flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 .result__video-container {
   inline-size: 711px;
-  block-size: 405px;
+  block-size: 386px;
   position: relative;
-  padding-block-end: 16px ;
+  
 }
 
 .result__video {
